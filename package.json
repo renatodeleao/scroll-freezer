@@ -2,7 +2,7 @@
   "name": "scroll-freezer",
   "version": "1.0.4",
   "description": "Frost scroll event on window. A no-jumping javascript alternative to overflow:hidden.",
-  "main": "index.js",
+  "main": "dist/scroll-freezer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel src/demo/index.html --out-dir docs/ && parcel watch src/demo/index.html",
