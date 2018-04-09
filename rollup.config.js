@@ -7,7 +7,7 @@ import filesize from 'rollup-plugin-filesize';
 import banner from './banner';
 
 export default {
-  input: 'index.js',
+  input: 'src/lib/index.js',
   cache: false,
   output: [
     {

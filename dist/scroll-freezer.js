@@ -1,7 +1,7 @@
 
 /**!
  * Name: scroll-freezer.js umd
- * Version: 'v1.0.0'
+ * Version: 'v1.0.1'
  * Author: Renato de Leão | https://github.com/@renatodeleao | @renatodeleao
  */
 

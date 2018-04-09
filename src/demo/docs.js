@@ -1,4 +1,4 @@
-import ScrollFreezer from '../../index.js';
+import ScrollFreezer from '../lib/index.js';
 
 (function(){
 	const f = new ScrollFreezer();
