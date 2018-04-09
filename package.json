@@ -1,0 +1,41 @@
+{
+  "name": "scroll-freezer",
+  "version": "1.0.0",
+  "description": "Frost scroll event on window. A no-jumping javascript alternative to overflow:hidden.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/demo/index.html && parcel watch src/demo/index.html",
+    "build": "rollup -c --environment BUILD:production && rollup --config rollup.config.unbundled.js --environment BUILD:production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renatodeleao/ScrollFreezer.git"
+  },
+  "keywords": [
+    "scroll",
+    "freeze",
+    "ios"
+  ],
+  "author": "Renato de Leão",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renatodeleao/ScrollFreezer/issues"
+  },
+  "homepage": "https://github.com/renatodeleao/ScrollFreezer#readme",
+  "dependencies": {
+    "rollup": "^0.57.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "parcel-bundler": "^1.7.0",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-filesize": "^1.5.0",
+    "rollup-plugin-json": "^2.3.0",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-uglify": "^3.0.0"
+  }
+}
