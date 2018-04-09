@@ -1,7 +1,7 @@
 
 /**!
  * Name: scroll-freezer.js es
- * Version: 'v1.0.1'
+ * Version: 'v1.0.4'
  * Author: Renato de Leão | https://github.com/@renatodeleao | @renatodeleao
  */
 
