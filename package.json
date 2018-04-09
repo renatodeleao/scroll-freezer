@@ -1,6 +1,6 @@
 {
   "name": "scroll-freezer",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Frost scroll event on window. A no-jumping javascript alternative to overflow:hidden.",
   "main": "index.js",
   "scripts": {
