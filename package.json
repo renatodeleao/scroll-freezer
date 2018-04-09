@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel src/demo/index.html && parcel watch src/demo/index.html",
+    "start": "parcel src/demo/index.html --out-dir docs/ && parcel watch src/demo/index.html",
     "build": "rollup -c --environment BUILD:production && rollup --config rollup.config.unbundled.js --environment BUILD:production"
   },
   "repository": {
@@ -32,6 +32,7 @@
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.6.1",
     "parcel-bundler": "^1.7.0",
+    "rollup": "^0.57.1",
     "rollup-plugin-babel": "^3.0.3",
     "rollup-plugin-filesize": "^1.5.0",
     "rollup-plugin-json": "^2.3.0",
